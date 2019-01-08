@@ -10,3 +10,5 @@ ReactDOM.render(
   </div>,
   document.getElementById('root')
 );
+
+new Bomb({initialCount: 120}).render()
